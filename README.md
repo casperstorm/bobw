@@ -1,4 +1,4 @@
-# init.lua - a configuration for both VSCode and Neovim.
+# The Best of both Worlds - VSCode configuration
 
 I love modal editing. But I also love VSCode. This repository is my configuration for setting up VSCode with modal editing using a fully embedded Neovim instance with some sane defaults.
 
