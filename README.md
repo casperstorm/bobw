@@ -13,7 +13,7 @@ I love modal editing. But I also love VSCode. This repository is my configuratio
 ## Installing
 
 ```sh
-git clone https://github.com/casperstorm/init.lua.git ~/.config/nvim
+git clone https://github.com/casperstorm/bobw.git ~/.config/nvim
 ```
 
 ## Setup
