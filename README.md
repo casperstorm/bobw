@@ -2,6 +2,8 @@
 
 I love modal editing. But I also love VSCode. This repository is my configuration for setting up VSCode with modal editing using a fully embedded Neovim instance with some sane defaults.
 
+![Example](./utils/resources/example.gif)
+
 ## Prerequisite
 
 - [Neovim](https://github.com/neovim/neovim) 0.5.0 or greater.
