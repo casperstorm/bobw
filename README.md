@@ -4,9 +4,9 @@ I love modal editing. But I also love VSCode. This repository is my configuratio
 
 ## Prerequisite
 
-* [Neovim](https://github.com/neovim/neovim) 0.5.0 or greater.
-* [vscode-neovim](https://github.com/asvetliakov/vscode-neovim) extension.
-* [Which Key](https://github.com/VSpaceCode/vscode-which-key) extension.
+- [Neovim](https://github.com/neovim/neovim) 0.5.0 or greater.
+- [vscode-neovim](https://github.com/asvetliakov/vscode-neovim) extension.
+- [Which Key](https://github.com/VSpaceCode/vscode-which-key) extension.
 
 ## Installing
 
@@ -33,11 +33,11 @@ In `Keybindings Shortcuts (JSON)` I suggest adding the following keybindings to 
 [
   {
     "key": "ctrl+h",
-    "command": "workbench.action.navigateLeft",
+    "command": "workbench.action.navigateLeft"
   },
   {
     "key": "ctrl+j",
-    "command": "workbench.action.navigateDown",
+    "command": "workbench.action.navigateDown"
   },
   {
     "key": "ctrl+k",
@@ -46,11 +46,12 @@ In `Keybindings Shortcuts (JSON)` I suggest adding the following keybindings to 
   },
   {
     "key": "ctrl+l",
-    "command": "workbench.action.navigateRight",
-    "when": "sideBarFocus"
+    "command": "workbench.action.navigateRight"
   }
 ]
 ```
+
+[Which Key](https://github.com/VSpaceCode/vscode-which-key) ships out of the box with keybindings which mimic the once from spacemacs. If you which to change them, you can do so in `Settings (JSON)`. You can find my bindings in [which-key.json](./utils/vscode/which-key.json).
 
 ### Neovim
 
