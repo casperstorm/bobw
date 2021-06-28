@@ -20,11 +20,12 @@ git clone https://github.com/casperstorm/bobw.git ~/.config/nvim
 
 ### VSCode
 
-In `Settings (JSON)` you need to add the path to Neovim executable and the `vscode/init.vim` path:
+In `Settings (JSON)` you need to add the path to Neovim executable and the `vscode/init.vim` path.  
+Use `$ which neovim` to find your path.
 
 ```json
 {
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim", 
   "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/vscode/init.vim"
 }
 ```
